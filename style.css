@@ -1,0 +1,126 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #272044;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+        url(/images/vitoria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+header h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 96px;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    padding: 16px 32px;
+    background: white;
+    color: #272044;
+    font-weight: 700;
+    margin-top: 32px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+section {
+    background: white;
+    padding: 100px;
+}
+
+.grid {
+
+    grid-gap: 64px;
+}
+
+.grid-2-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.img-responsive {
+
+    display: block;
+    width: 100%;
+
+}
+
+.google-maps {
+    width: 100%;
+    aspect-ratio: fit-content;
+}
+
+
+
+
+
+main h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    opacity: 0.3;
+    color: #272044;
+}
+
+main h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    font-style: normal;
+    opacity: 0.7;
+}
+
+@media(max-width:960px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+}
