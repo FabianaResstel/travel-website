@@ -72,7 +72,8 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.second-section {
+.second-section,
+.instagram-photos {
     text-align: center;
 }
 
@@ -88,7 +89,9 @@ section {
     aspect-ratio: fit-content;
 }
 
-
+.card {
+    text-align: left;
+}
 
 
 
@@ -116,6 +119,25 @@ main p {
     color: #272044;
     font-style: normal;
     opacity: 0.7;
+    font-weight: 400;
+}
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #462cb3;
+    text-decoration: none;
+}
+
+.card-section {
+    margin-top: 50px;
 }
 
 @media(max-width:960px) {
