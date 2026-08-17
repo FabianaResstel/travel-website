@@ -19,7 +19,7 @@ header {
     padding: 200px 0;
 }
 
-header h3 {
+header .logo {
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: 5px;
@@ -99,7 +99,9 @@ footer h3 {
 .grid-2-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
+
 
 .grid-3-columns {
     display: grid;
@@ -115,6 +117,7 @@ footer h3 {
 
     display: block;
     width: 100%;
+
 
 }
 
@@ -175,6 +178,10 @@ main p {
 }
 
 @media(max-width:960px) {
+    section {
+        padding: 50px 20px;
+    }
+
     .grid {
         grid-template-columns: 1fr;
         grid-gap: 32px;
@@ -188,5 +195,9 @@ main p {
         font-size: 24px;
     }
 
+    .instagram-media {
+        min-width: 0 !important;
+        width: 100% !important;
+    }
 
 }
