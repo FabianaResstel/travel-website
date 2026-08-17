@@ -24,6 +24,7 @@ header h3 {
     line-height: 1.5;
     letter-spacing: 5px;
     margin: 0;
+    font-weight: 900;
 }
 
 header h1 {
@@ -178,4 +179,14 @@ main p {
         grid-template-columns: 1fr;
         grid-gap: 32px;
     }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    main h3 {
+        font-size: 24px;
+    }
+
+
 }
