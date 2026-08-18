@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     background: #272044;
@@ -108,6 +120,11 @@ footer h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-2-columns>*,
+.grid-3-columns>* {
+    min-width: 0;
+}
+
 .second-section,
 .instagram-photos {
     text-align: center;
@@ -123,7 +140,9 @@ footer h3 {
 
 .google-maps {
     width: 100%;
-    aspect-ratio: fit-content;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    max-width: 100%;
 }
 
 .card {
@@ -182,7 +201,9 @@ main p {
         padding: 50px 20px;
     }
 
-    .grid {
+    .grid,
+    .grid-2-columns,
+    .grid-3-columns {
         grid-template-columns: 1fr;
         grid-gap: 32px;
     }
